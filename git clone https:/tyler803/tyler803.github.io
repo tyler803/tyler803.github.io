@@ -1,11 +1,6 @@
 <DOCTYPE.html>
 <html>
 
-<body>
-
-
-
-
 <style>
 body {
   background-color: cobrablue;
