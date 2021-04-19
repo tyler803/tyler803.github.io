@@ -1,6 +1,8 @@
-</style>
 
-</head>
+
+<head>
+  <style>
+
 body {
   background-color: cobrablue;
 }
@@ -13,7 +15,7 @@ h1 {
 p {
   font-family: verdana;
   font-size: 20px;
-
+</style>
 <body>
 <h1> Hello! My name is Tyler and this is my website!! </h1>
 
@@ -34,7 +36,24 @@ p {
 <button onclick="helloJS()" > Press me!</button>
 
 <script>
+var myDiv = document.getElementById("hiddenDiv")
 
+var canSee = false;
+
+function changeDiv ()
+{
+if(canSee == true)
+  {
+   myDiv.style.display = "block":      canSee=false 
+  }
+  else
+  {
+    myDiv.style.display="none";
+    canSee = true;
+  }
+  
+  
+}
 </script>
  
 </body>
